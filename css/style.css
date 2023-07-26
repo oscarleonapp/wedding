@@ -2716,10 +2716,11 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
-.btn-primary {
+.btn-secundary {
   color: #fff;
-  /* background-color: #E47A2E; */
+  background-color: #D5C3B5;
   /* border-color: #E47A2E; */
+  border-radius: 5px;
 }
 
 .btn-primary:hover {
@@ -10717,6 +10718,10 @@ a.text-dark:focus {
   color: #E47A2E;
 }
 
+.amigos {
+  color: #FCFBFB;
+}
+
 @media (max-width: 991.98px) {
   .navbar-dark .navbar-nav .nav-link {
     padding: 10px 0;
@@ -10729,7 +10734,7 @@ a.text-dark:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
