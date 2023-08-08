@@ -721,6 +721,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #212529;
 }
 
 @media (min-width: 576px) {
@@ -6519,6 +6520,7 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
+  /* background-color: #fff9f6; */
 }
 
 .carousel-inner::after {
