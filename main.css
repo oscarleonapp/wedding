@@ -1,0 +1,187 @@
+:root {
+    --font-family-sans-serif: "Montserrat", sans-serif;
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+main {
+    background-color: #fdfbee;
+    max-width: 768px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 768px));
+    /* grid-auto-rows: 100vh; */
+    /* border-bottom: 1px solid #ddd; */
+    min-height: 100vh;
+    position: relative;
+}
+
+.img-backgroud_hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/Dana/hero.png");
+    filter: blur(.5px);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.versiculo-nombres {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 768px));
+    grid-row: 1fr;
+    justify-content: center;
+    /* border-bottom: 1px solid #ddd; */
+    margin-bottom: 30px;
+}
+
+.versiculo {
+    padding: 20px 70px 20px 70px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1;
+    font-family: 'Great Vibes', cursive;
+}
+
+.versiculo span {
+    font-size: 3rem;
+}
+
+.nombre-novios {
+    padding: 20px 70px 20px 70px;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.invitacion-cancion {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--font-family-sans-serif);
+    margin-bottom: 15px;
+}
+
+.versiculo-nombres img {
+    width: 48px;
+    /* height: 100px; */
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
+.versiculo-nombres button {
+    width: 200px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 5px;
+    border: none;
+    background-color: bisque;
+    margin-bottom: 50px;
+}
+
+.nos-casamos-title {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+.date-container {
+    display: grid;
+    grid-template-columns: 100px 70px 100px;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.date-container p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.date-container .text1 {
+    border-right: 1px solid #ddd;
+}
+
+.date-container .text2 {
+    border-left: 1px solid #ddd;
+}
+
+.date-container .fecha {
+    font-weight: 300;
+    font-size: 4rem;
+
+}
+
+.nos-casamos .bendicion {
+    text-align: center;
+    /* font-family: 'Great Vibes', cursive; */
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.padrinos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.padrinos p {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.padrinos .margl {
+    border-right: 1px solid #ddd;
+}
+
+.testigos {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+.testigos h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.testigos p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.testigos .honor-invitar {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+}
