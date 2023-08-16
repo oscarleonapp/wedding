@@ -251,38 +251,48 @@ main {
     grid-template-columns: repeat(6, 1fr);
     justify-content: center;
     align-content: center;
+    margin-bottom: 20px;
+    justify-items: center;
 }
 
 .itinerario .iglesia img{
+    padding: 0;
+    margin: 0 auto;
     width: 64px;
     height: 64px;
 }
 
 .itinerario .recepcion img{
+    padding: 0;
+    margin: 0 auto;
     width: 64px;
     height: 64px;
 }
 
 .itinerario .fotografia img{
+    padding: 0;
+    margin: 0 auto;
     width: 64px;
     height: 64px;
 }
 
 .itinerario .brindis img{
+    padding: 0;
+    margin: 0 auto;
     width: 64px;
     height: 64px;
 }
 
 .itinerario .comida img{
+    padding: 0;
+    margin: 0 auto;
     width: 64px;
     height: 64px;
 }
 
 .itinerario .fiesta img{
+    padding: 0;
+    margin: 0 auto;
     width: 64px;
     height: 64px;
-}
-
-.info-container .separador{
-    width: 130px;
 }
