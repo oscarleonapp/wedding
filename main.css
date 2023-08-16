@@ -1,6 +1,5 @@
 :root {
     --font-family-sans-serif: "Montserrat", sans-serif;
-    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 * {
@@ -11,7 +10,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: sans-serif;
+    font-family: var(--font-family-sans-serif);
     background-color: #fff;
 }
 
@@ -370,6 +369,7 @@ main {
 
 .no-ninos-container h3 img{
     width: 32px;
+    height: 32px;
 }
 
 .no-ninos-container p{
@@ -377,5 +377,47 @@ main {
     font-size: 1.5rem;
     margin: 10px;
 }
+
+.mesa-regalos-container{
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mesa-regalos-container img{
+    width: 128px;
+    height: 128px;
+}
+
+.mesa-regalos-container h3{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+.mesa-regalos-container p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.cuentas-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cuentas-container .banco1{
+    border-right: 1px solid #ddd;
+}
+
+.cuentas-container h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 
 
