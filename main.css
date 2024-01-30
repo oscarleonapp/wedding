@@ -1,531 +1,528 @@
 :root {
-    --font-family-sans-serif: "Montserrat", sans-serif;
+  --font-family-sans-serif: "Montserrat", sans-serif;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 62.5%;
-    font-family: var(--font-family-sans-serif);
-    background-color: #fff;
+  font-size: 62.5%;
+  font-family: var(--font-family-sans-serif);
+  background-color: #fff;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 main {
-    background-color: #fdfbee;
-    max-width: 768px;
-    margin: 0 auto;
-    display: grid;
-    justify-content: center;
-    align-content: center;
+  background-color: #fdfbee;
+  max-width: 768px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 
 .hero {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 768px));
-    /* grid-auto-rows: 100vh; */
-    /* border-bottom: 1px solid #ddd; */
-    min-height: 100vh;
-    position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 768px));
+  /* grid-auto-rows: 100vh; */
+  /* border-bottom: 1px solid #ddd; */
+  min-height: 100vh;
+  position: relative;
 }
 
 .img-backgroud_hero {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("img/Dana/hero.png");
-    filter: blur(.5px);
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img/Dana/hero.png");
+  filter: blur(0.5px);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
 }
 
 .versiculo-nombres {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 768px));
-    grid-row: 1fr;
-    justify-content: center;
-    /* border-bottom: 1px solid #ddd; */
-    margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 768px));
+  grid-row: 1fr;
+  justify-content: center;
+  /* border-bottom: 1px solid #ddd; */
+  margin-bottom: 30px;
 }
 
 .versiculo {
-    padding: 20px 70px 20px 70px;
-    text-align: center;
-    font-size: 3rem;
-    line-height: 1;
-    color: #e0cda8;
-    font-family: 'Great Vibes', cursive;
+  padding: 20px 70px 20px 70px;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 1;
+  color: #e0cda8;
+  font-family: "Great Vibes", cursive;
 }
 
 .versiculo span {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .nombre-novios {
-    color: #726158;
-    padding: 20px 70px 20px 70px;
-    text-align: center;
-    font-size: 6rem;
-    font-family: 'Great Vibes', cursive;
+  color: #726158;
+  padding: 20px 70px 20px 70px;
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Great Vibes", cursive;
 }
 
 .invitacion-cancion {
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: var(--font-family-sans-serif);
-    margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: var(--font-family-sans-serif);
+  margin-bottom: 15px;
 }
 
 .versiculo-nombres img {
-    width: 48px;
-    /* height: 100px; */
-    align-self: center;
-    justify-self: center;
-    margin-bottom: 10px;
+  width: 48px;
+  /* height: 100px; */
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 10px;
 }
 
 .versiculo-nombres button {
-    width: 200px;
-    height: 25px;
-    align-self: center;
-    justify-self: center;
-    border-radius: 5px;
-    border: none;
-    background-color: bisque;
-    margin-bottom: 50px;
-    cursor: pointer;
+  width: 200px;
+  height: 25px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+  border: none;
+  background-color: bisque;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .nos-casamos-title {
-    color: #726158;
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
-    font-weight: 100;
+  color: #726158;
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  font-weight: 100;
 }
 
 .date-container {
-    display: grid;
-    grid-template-columns: 100px 70px 100px;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 100px 70px 100px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
 }
 
 .date-container p {
-    text-align: center;
-    font-size: 1.5rem;
-    color: #726158;;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #726158;
 }
 
 .date-container .text1 {
-    border-right: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 .date-container .text2 {
-    border-left: 1px solid #ddd;
+  border-left: 1px solid #ddd;
 }
 
 .date-container .fecha {
-    font-weight: 300;
-    font-size: 4rem;
-
+  font-weight: 300;
+  font-size: 4rem;
 }
 
 .nos-casamos .bendicion {
-    text-align: center;
-    /* font-family: 'Great Vibes', cursive; */
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 40px;
+  text-align: center;
+  /* font-family: 'Great Vibes', cursive; */
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 40px;
 }
 
 .padrinos {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 50px;
-    padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
+  padding: 10px;
 }
 
 .padrinos p {
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    text-align: center;
-    color: #726158;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #726158;
 }
 
 .padrinos .margl {
-    border-right: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
 
 .testigos {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
 }
 
 .testigos h3 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 5px;
-    color: #726158;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #726158;
 }
 
 .testigos p {
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
 .testigos .honor-invitar {
-    font-family: 'Great Vibes', cursive;
-    font-size: 3rem;
-    color: #e0cda8;
+  font-family: "Great Vibes", cursive;
+  font-size: 3rem;
+  color: #e0cda8;
 }
-
 
 /* CEREMONIA SECTION */
 
-.ceremonia-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.ceremonia-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
-.info-container{
-    justify-self: center;
-    align-self: center;
-    justify-items: center;
+.info-container {
+  justify-self: center;
+  align-self: center;
+  justify-items: center;
 }
 
-.info-container img{
-    width: 128px;
-    margin-bottom: 20px;
+.info-container img {
+  width: 128px;
+  margin-bottom: 20px;
 }
 
-.info-container h3{
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
-    font-weight: 100;
-    color: #726158;
+.info-container h3 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  font-weight: 100;
+  color: #726158;
 }
 
-.info-container h4{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 5px;
+.info-container h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
-.info-container p{
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 10px;
+.info-container p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
-.info-container button{
-    width: 200px;
-    height: 25px;
-    align-self: center;
-    justify-self: center;
-    border-radius: 5px;
-    border: none;
-    background-color: bisque;
-    margin-bottom: 50px;
-    cursor: pointer;
+.info-container button {
+  width: 200px;
+  height: 25px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+  border: none;
+  background-color: bisque;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
 /* RECEPCION SECTION */
 .info-container .separador {
-    width: 70%;
+  width: 70%;
 }
 
 /* ITINERARIO */
-.itinerario{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 20px;
-    justify-items: center;
+.itinerario {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 20px;
+  justify-items: center;
 }
 
-.itinerario .iglesia img{
-    padding: 0;
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
+.itinerario .iglesia img {
+  padding: 0;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
 }
 
-.itinerario .recepcion img{
-    padding: 0;
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
+.itinerario .recepcion img {
+  padding: 0;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
 }
 
-.itinerario .fotografia img{
-    padding: 0;
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
+.itinerario .fotografia img {
+  padding: 0;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
 }
 
-.itinerario .brindis img{
-    padding: 0;
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
+.itinerario .brindis img {
+  padding: 0;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
 }
 
-.itinerario .comida img{
-    padding: 0;
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
+.itinerario .comida img {
+  padding: 0;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
 }
 
-.itinerario .fiesta img{
-    padding: 0;
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
+.itinerario .fiesta img {
+  padding: 0;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
 }
 
 /* DRESS CODE */
-.dress-code-container{
-    display: grid;
-    grid-template-rows: auto;
+.dress-code-container {
+  display: grid;
+  grid-template-rows: auto;
 }
 
-.dress-code-container h3{
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
-    font-weight: 100;
-    color: #726158;
+.dress-code-container h3 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  font-weight: 100;
+  color: #726158;
 }
 
-.dress-code-container h4{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 5px;
+.dress-code-container h4 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
-.vestimenta-organizacion{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* grid-template-rows: 2; */
-    justify-content: center;
-    align-content: center;
+.vestimenta-organizacion {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 2; */
+  justify-content: center;
+  align-content: center;
 }
 
-.vestimenta-organizacion .img{
-    justify-self: end;
-
+.vestimenta-organizacion .img {
+  justify-self: end;
 }
 
-.vestimenta-organizacion .img img{
-    width: 64px;
+.vestimenta-organizacion .img img {
+  width: 64px;
 }
 
-.vestimenta-organizacion p{
-    align-self: center;
-    justify-self: center;
-    text-align: start;
-    font-size: 1.5rem;
+.vestimenta-organizacion p {
+  align-self: center;
+  justify-self: center;
+  text-align: start;
+  font-size: 1.5rem;
 }
 
 .vestimenta-organizacion .traje {
-    justify-self: start;
-    text-align: center;
+  justify-self: start;
+  text-align: center;
 }
 
-.dress-code-container h4{
-    font-size: 1.5rem;
-    font-weight: 600;
+.dress-code-container h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.dress-code-container .margin{
-    margin-bottom: 20px;
+.dress-code-container .margin {
+  margin-bottom: 20px;
 }
 
 /* NO NIÑOS */
-.no-ninos-container{
-    display: grid;
-    grid-template-rows: 2;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.no-ninos-container {
+  display: grid;
+  grid-template-rows: 2;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
-.no-ninos-container h3{
-    font-size: 3rem;
+.no-ninos-container h3 {
+  font-size: 3rem;
 }
 
-.no-ninos-container h3 img{
-    width: 32px;
-    height: 32px;
+.no-ninos-container h3 img {
+  width: 32px;
+  height: 32px;
 }
 
-.no-ninos-container p{
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 10px;
+.no-ninos-container p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
-.mesa-regalos-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.mesa-regalos-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
-.mesa-regalos-container img{
-    width: 128px;
-    height: 128px;
+.mesa-regalos-container img {
+  width: 128px;
+  height: 128px;
 }
 
-.mesa-regalos-container h3{
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
-    font-weight: 100;
-    color: #726158;
+.mesa-regalos-container h3 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  font-weight: 100;
+  color: #726158;
 }
 
 .mesa-regalos-container p {
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
 .cuentas-container {
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.cuentas-container .banco1{
-    border-right: 1px solid #ddd;
+.cuentas-container .banco1 {
+  border-right: 1px solid #ddd;
 }
 
-.cuentas-container h4{
-    font-size: 1.5rem;
-    font-weight: 600;
+.cuentas-container h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 /* CONFIRMACIÓN */
-.confirmacion-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    margin-top: 70px;
+.confirmacion-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 70px;
 }
 
-.confirmacion-container .acompananos{
-    font-size: 3rem;
-    color: #e0cda8;
-    font-family: 'Great Vibes', cursive;
-    font-weight: 100;
+.confirmacion-container .acompananos {
+  font-size: 3rem;
+  color: #e0cda8;
+  font-family: "Great Vibes", cursive;
+  font-weight: 100;
 }
 
-.confirmacion-container h3{
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
-    font-weight: 100;
-    color: #726158;
+.confirmacion-container h3 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  font-weight: 100;
+  color: #726158;
 }
 
-.confirmacion-container p{
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 10px;
+.confirmacion-container p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
-.confirmacion-container div{
-    margin-top: 20px;
+.confirmacion-container div {
+  margin-top: 20px;
 }
 
-.confirmacion-container div img{
-    width: 64px;
+.confirmacion-container div img {
+  width: 64px;
 }
 
-.confirmacion-container button{
-        width: 200px;
-        height: 25px;
-        align-self: center;
-        justify-self: center;
-        border-radius: 5px;
-        border: none;
-        background-color: bisque;
-        margin-bottom: 50px;
-        cursor: pointer;
+.confirmacion-container button {
+  width: 200px;
+  height: 25px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+  border: none;
+  background-color: bisque;
+  margin-bottom: 50px;
+  cursor: pointer;
 }
 
-.final-section-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+.final-section-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
-.final-section-container h3{
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 2.5rem;
-    font-weight: 100;
-    color: #e0cda8;
+.final-section-container h3 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #e0cda8;
 }
 
-.final-section-container h3 span{
-    font-size: 3rem;
+.final-section-container h3 span {
+  font-size: 3rem;
 }
 
-.final-gallery-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
-    /* gap: 4px; */
-    margin-bottom: 20px;
-    padding: 10px;
+.final-gallery-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  /* gap: 4px; */
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
-.final-gallery-container img{
-    width: 100%;
-    /* height: 220px; */
+.final-gallery-container img {
+  width: 100%;
+  /* height: 220px; */
 }
 
-.final-section-container h4{
-    text-align: center;
-    font-family: 'Great Vibes', cursive;
-    font-size: 6rem;
-    font-weight: 100;
-    color: #726158;
+.final-section-container h4 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  font-weight: 100;
+  color: #726158;
 }
