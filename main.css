@@ -260,11 +260,12 @@ main {
 
 /* ITINERARIO */
 .itinerario {
+  padding: 10px 10px 10px 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   align-content: center;
-  margin-left: 3px;
+  /* margin-left: 3px; */
   margin-bottom: 20px;
   justify-items: center;
 }
@@ -276,11 +277,19 @@ main {
   height: 48px;
 }
 
+.itinerario .iglesia p {
+  font-size: 12px;
+}
+
 .itinerario .recepcion img {
   padding: 0;
   margin: 0 auto;
   width: 48px;
   height: 48px;
+}
+
+.itinerario .recepcion p {
+  font-size: 12px;
 }
 
 .itinerario .fotografia img {
@@ -290,11 +299,19 @@ main {
   height: 48px;
 }
 
+.itinerario .fotografia p {
+  font-size: 12px;
+}
+
 .itinerario .brindis img {
   padding: 0;
   margin: 0 auto;
   width: 48px;
   height: 48px;
+}
+
+.itinerario .brindis p {
+  font-size: 12px;
 }
 
 .itinerario .comida img {
@@ -304,11 +321,19 @@ main {
   height: 48px;
 }
 
+.itinerario .comida p {
+  font-size: 12px;
+}
+
 .itinerario .fiesta img {
   padding: 0;
   margin: 0 auto;
   width: 48px;
   height: 48px;
+}
+
+.itinerario .fiesta p {
+  font-size: 12px;
 }
 
 /* DRESS CODE */
